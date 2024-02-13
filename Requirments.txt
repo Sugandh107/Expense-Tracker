@@ -1,0 +1,7 @@
+Requirments Includes:
+	-Implement input fields for users to enter the expense description, amount.
+	-Ensure that the input fields are clearly labeled and provide placeholders to guide users.
+	-Include a button that users can click to submit the entered expense details.
+	-Display the list of logged expenses below the expense input form.
+	-Each expense entry should include the description, amount.
+	-Ensure that the application's layout and elements adapt fluidly to various screen sizes and devices.

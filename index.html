@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <nav>Expsense Tracker</nav>
+    <div class="dispAmt">Remaining amount: $<span id="mainAmt"></span></div>
+    <div class="inputDiv">
+      <div class="inputInner">
+        <h3>Add Expense</h3>
+        <input
+          type="text"
+          name="head"
+          id="head"
+          placeholder="Enter expsense name..."
+        />
+        <input type="number" name="amt" id="amt" placeholder="Enter amount..." />
+        <button onclick="addExpense()" class="button1">Sumbit</button>
+      </div>
+
+      <div class="inputInner">
+        <h3>Add Income</h3>
+        <input
+          type="text"
+          name="Inhead"
+          id="Inhead"
+          placeholder="Enter income name..."
+        />
+        <input type="number" name="Inamt" id="Inamt" placeholder="Enter amount..." />
+        <button onclick="addIncome()" class="button2">Sumbit</button>
+      </div>
+    </div>
+
+    <h1 style="text-align:center; margin-top:20px;">Your income/expense data</h1>
+    <div class="exContainer" id="exContainer">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
